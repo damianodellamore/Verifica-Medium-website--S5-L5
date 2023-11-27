@@ -322,56 +322,32 @@ main {
 
 @media (max-width: 768px) {
  
-   /* Adjust header spacing and layout */
+  
    header img {
-    margin-left: 1em; /* reduced margin */
+    margin-left: 1em; 
 }
 
-/* Hide all but the last li element in the header */
+
 header nav ul li:not(:last-child) {
     display: none;
 }
 
-/* Adjust last li and button in the header */
-header nav ul li:last-child {
-    /* Add necessary styles here */
-}
 
 header nav button {
-    margin-right: 1em; /* Adjust margin */
+    margin-right: 1em; 
 }
 
-/* Trending section adjustments */
+
 .trending {
     padding: 10px;
-    gap: 2px; /* Reduce gap */
-}
-
-/* Article adjustments */
-.articoli {
-    padding: 10px; /* Reduced padding */
-  margin-top: 40px;
+    gap: 2px; 
 }
 
 
-/* Footer adjustments */
 footer {
-    padding: 10px; /* Reduced padding */
+    margin-bottom: 150px;
 }
 
-.footer {
-    /* Adjust footer content styling if needed */
-}
-
-.contenitore {
-    /* Adjustments to the container if needed */
-}
-
-/* Ensure images and other media are responsive */
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 
 }
