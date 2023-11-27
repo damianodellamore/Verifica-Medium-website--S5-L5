@@ -302,7 +302,8 @@ main {
         
     }
     footer{width: 100%;
-     
+        height:300px;
+     overflow: auto;
     }
 
     .footer {
@@ -318,6 +319,7 @@ main {
        flex-direction: column;
       
     }
+  
 }
 
 @media (max-width: 768px) {
@@ -345,13 +347,12 @@ header nav button {
 
 
 footer {
-    margin-bottom: 150px;
+   overflow: auto;
 }
 
-.articoli{
-    margin-top: 160px;
-}
+
 
 }
+
 
 
