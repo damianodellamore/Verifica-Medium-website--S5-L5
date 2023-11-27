@@ -13,21 +13,21 @@ window.addEventListener('scroll', function() {
   });
   
 
-  // EXTRA : non ho seguito quella del sito,l'ho personalizzata creando un animazione diversa
-document.addEventListener('DOMContentLoaded', function() {
+  // EXTRA : non ho seguito quella identica al sito,l'ho personalizzata creando un animazione diversa
+  document.addEventListener('DOMContentLoaded', function() {
     var svgElement = document.querySelector('svg');
-    
-    // Esempio: ruota la lettera M
+    var singolaM = document.querySelectorAll('g[opacity]');
+  
     var angle = 0;
     var scale = 1;
     var scalingUp = true;
 
     setInterval(function() {
- 
+        
         angle += 1;
         svgElement.style.transform = 'rotate(' + angle + 'deg) scale(' + scale + ')';
-
        
+     
         if (scalingUp) {
             scale += 0.01;
             if (scale >= 1.5) scalingUp = false; 
@@ -35,5 +35,13 @@ document.addEventListener('DOMContentLoaded', function() {
             scale -= 0.01;
             if (scale <= 0.5) scalingUp = true;
         }
-    }, 10);
-});
+
+        
+        singolaM.forEach(function(element) {
+            var randomOpacity = Math.random();
+            element.style.opacity = randomOpacity;
+            element.setAttribute('opacity', randomOpacity);
+        });
+
+    }, 100); 
+}, 1000); 
