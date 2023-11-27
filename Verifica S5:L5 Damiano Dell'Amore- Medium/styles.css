@@ -1,0 +1,378 @@
+
+
+
+.container{display:block;
+    height:100vh;
+   width: 100;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* HEADER */
+
+header{
+    position: sticky;
+    top:0;
+    width: 100%;
+    height:8%;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    font-weight: 300;
+ z-index: 2;
+ transition: background-color 0.3s;
+ background-color: #ffc017;
+}
+
+  
+  #green {
+    transition: background-color 0.3s; 
+    background-color: black; 
+
+  }
+  
+
+header img{
+    margin-left: 8em;
+   
+}
+nav{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+   
+}
+nav ul{ 
+    display:flex;
+    list-style:none;
+    
+}
+nav ul li{cursor: pointer;
+    margin: 0px 10px;
+}
+nav button{
+margin-right: 8em;
+}
+ button{ border-radius: 35px;
+    padding: 7px 15px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+
+}
+ button p {font-size: 11pt;
+    color:white;
+}
+
+/*PRIMO BLOCCO*/
+
+.curious{border-bottom: 1px solid black;
+    background-color:#ffc017 ;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height:22em;
+   
+    
+    
+}
+.curious-first{ margin:50px 60px;
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    width: 50%;
+    height:100%;
+    line-height: 1.4rem;
+    margin-left: 7rem;
+    margin-top: 3em;
+
+}
+.curious h1{font-weight: 500;
+    line-height:0.8;
+    font-family: 'Spectral', serif;
+    font-size: 4.3em;
+    
+    margin-bottom: 20px;
+}
+.curious h3 { width: 70%;
+    margin-bottom:20px;
+}
+
+
+/*SECONDO  BLOCCO */
+
+
+.trending{ justify-content: center;
+    align-items: center;
+  width: 95%;
+  margin: 0 auto;
+display:flex;
+height:30em;
+overflow: auto;
+flex-wrap: wrap;
+padding: 60px 45px;
+
+gap: 5px;
+box-sizing: border-box;
+
+
+}
+.uno,.due,.tre,.quattro,.cinque,.sei{
+    flex-basis: 450px;
+    
+    
+    height:150px;
+
+    
+}
+
+.trend{display:flex;
+    align-items: center;
+    
+    position: relative;
+    top:-40px;
+}
+
+.trend span{
+    margin-left: 10px;
+    color: #676464;
+    font-weight: bold;
+}
+ p >span{
+font-size: 29pt;
+font-weight: bold;
+color: rgb(189, 192, 192);
+
+}
+#unico{
+    position: relative;
+    top:-30px;
+    left: 0px;
+}
+.uno{
+    display:flex;
+    flex-direction: column;
+}
+.cooper{display:flex;
+    flex-direction: column;
+    position: relative;
+    left: 70px;
+    top:-65px;
+    line-height: 2rem;
+
+}
+.cooper p {width: 130px;
+   display:flex;
+   align-items: center;
+justify-content: space-between;
+}
+h2 {
+    font-weight: bold;
+}
+.cooper p img,.arthur p img,.erin p img,.mastropolo p img,.andrade p img,.wesley p img{
+    height:30px;
+    border-radius: 50%;
+}
+.cooper span,.arthur span,.erin span,.mastropolo span, .andrade span, .wesley span,.robert span{
+    color: rgb(134, 138, 138);
+}
+.due,.tre,.quattro,.cinque,.sei{
+    display:flex;
+    flex-direction: row;
+   
+}
+.arthur p,.erin p,.mastropolo p,.andrade p,.wesley p {
+    display:flex;
+    align-items: center;
+}
+.arthur,.erin,.mastropolo,.andrade,.wesley{margin: 0px 25px;
+    display:flex;
+    flex-direction: column;
+    line-height: 2rem;
+
+}
+.arthur p img ,.robert p img{
+    height:30px;
+    border-radius: 50%;
+}
+.immagine{
+    margin-right: 15px;
+}
+
+/*TERZO BLOCCO */
+
+.contenitore{display:flex;
+    justify-content: space-between;
+    border-top: 1px solid #6764649f;
+ 
+    padding: 50px 10px;
+}
+.articoli{margin-left: 140px;
+    width: 50%;
+  
+}
+.one,.two,.three,.four,.five,.six,.seven{margin: 20px 40px;
+    display:flex;
+    justify-content: space-around;
+}
+.robert{display:flex;
+    width: 60%;
+    flex-direction: column;
+    
+    justify-content: center;
+       
+        line-height: 1.5rem;
+}
+
+.robertimg img{
+    width: 180px;
+}
+
+
+footer{
+    width: 40%;
+    height:100%;
+
+}
+#grey{
+    color: rgb(134, 138, 138);
+}
+span span{padding: 5px;
+    border-radius: 30px;
+    background-color:  rgba(134, 138, 138, 0.185);
+}
+.one p ,.two p,.three p,.four p,.five p,.six p,.seven p {
+ 
+    display:flex;
+    align-items: center;
+   
+}
+footer{ color:#676464;
+    height:40vh;
+}
+footer span{
+    color: #676464;
+    font-weight: bold;
+}
+
+.griglia ul{
+
+    padding: 20px;
+    display:flex;
+justify-content:start;
+    list-style: none;
+    flex-wrap:wrap ;
+    border-bottom: 1px solid #676464;
+}
+.griglia ul li{ border-radius: 5px;
+    padding:  15px 20px;
+    margin: 10px 10px;
+    border: 1px solid #676464;
+  
+}
+.footer ul{
+    list-style: none;
+    width: 70%;
+    padding: 20px;
+    display:flex;
+    
+    flex-wrap:wrap ;
+}
+.footer ul li{
+    line-height: 2rem;
+margin: 0px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+}
+@media (max-width: 1135px) {
+    .trending .item {
+        flex-basis: calc(50% - 10px);
+        min-width: 200px; 
+    }
+    .articoli{ order:2;
+        width: 100%;
+        margin:0;
+        
+        
+    }
+    footer{width: 100%;
+     
+    }
+
+    .footer {
+        align-self: center;
+        order: 1; 
+        
+    }
+  .griglia ul {
+    justify-content: start;
+  }
+    .contenitore {
+       display:flex;
+       flex-direction: column;
+      
+    }
+}
+
+@media (max-width: 768px) {
+ 
+   /* Adjust header spacing and layout */
+   header img {
+    margin-left: 1em; /* reduced margin */
+}
+
+/* Hide all but the last li element in the header */
+header nav ul li:not(:last-child) {
+    display: none;
+}
+
+/* Adjust last li and button in the header */
+header nav ul li:last-child {
+    /* Add necessary styles here */
+}
+
+header nav button {
+    margin-right: 1em; /* Adjust margin */
+}
+
+/* Trending section adjustments */
+.trending {
+    padding: 10px;
+    gap: 2px; /* Reduce gap */
+}
+
+/* Article adjustments */
+.articoli {
+    padding: 10px; /* Reduced padding */
+  margin-top: 40px;
+}
+
+
+/* Footer adjustments */
+footer {
+    padding: 10px; /* Reduced padding */
+}
+
+.footer {
+    /* Adjust footer content styling if needed */
+}
+
+.contenitore {
+    /* Adjustments to the container if needed */
+}
+
+/* Ensure images and other media are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+}
+
